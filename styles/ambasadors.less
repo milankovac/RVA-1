@@ -1,3 +1,9 @@
+
+.responsive(@flex,@width){
+  flex: @flex;
+  max-width: @width;
+}
+
 #ambasadors{
     text-align: center;
     h1{
@@ -26,15 +32,13 @@
       
       @media screen and (max-width: 800px) {
         .column {
-          flex: 50%;
-          max-width: 50%;
+          .responsive(50%,50%)
         }
       }
       
       @media screen and (max-width: 600px) {
         .column {
-          flex: 100%;
-          max-width: 100%;
+          .responsive(100%,100%)
         }
       }
 }

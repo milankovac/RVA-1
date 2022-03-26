@@ -4,9 +4,18 @@
 @color_5: #92999f;
 @background_color_1: #f3f3f3;
 
+.mixin(@a) when (lightness(@a) >= 50%) {
+	color: #8f9296;
+}
+
+.mixin(@a) when (lightness(@a) < 50%) {
+	color: #92999f;
+}
+
 footer {
     text-align: center;
     justify-content: center;
+	transition: 0.5s;
 }
 .footer-distributed {
 	background-color: @background_color_1;
@@ -15,7 +24,7 @@ footer {
 	width: 100%;
 	text-align: left;
 	font: bold 16px sans-serif;
-	padding: 55px 50px;
+	padding: 3%;
 	margin-top: 80px;
 	.footer-left {
 		display: inline-block;
@@ -84,14 +93,14 @@ footer {
 		}
 	}
 	.footer-company-name {
-		color: @color_4;
+		.mixin(#ddd);
 		font-size: 14px;
 		font-weight: normal;
 		margin: 0;
 	}
 	.footer-company-about {
 		line-height: 20px;
-		color: @color_5;
+		color:  .mixin(#555);
 		font-size: 13px;
 		font-weight: normal;
 		margin: 0;
