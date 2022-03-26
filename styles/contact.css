@@ -1,0 +1,201 @@
+#contact {
+  /* Rounded Inputs *//* Grouped Inputs */
+}
+#contact input[type="text"],
+#contact input[type="password"],
+#contact input[type="email"],
+#contact input[type="url"],
+#contact input[type="date"],
+#contact input[type="month"],
+#contact input[type="time"],
+#contact input[type="datetime"],
+#contact input[type="datetime-local"],
+#contact input[type="week"],
+#contact input[type="number"],
+#contact input[type="search"],
+#contact input[type="tel"],
+#contact input[type="color"],
+#contact select,
+#contact textarea {
+  padding: 0.5em 0.6em;display: inline-block;border: 1px solid #ccc;font-size: 0.8em;box-shadow: inset 0 1px 3px #dddddd;-webkit-border-radius: 4px;-moz-border-radius: 4px;-ms-border-radius: 4px;-o-border-radius: 4px;border-radius: 4px;-webkit-transition: 0.3s border linear;-moz-transition: 0.3s border linear;-ms-transition: 0.3s border linear;-o-transition: 0.3s border linear;transition: 0.3s border linear;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;-webkit-font-smoothing: antialiased;
+}
+#contact input[type="text"]:focus,
+#contact input[type="password"]:focus,
+#contact input[type="email"]:focus,
+#contact input[type="url"]:focus,
+#contact input[type="date"]:focus,
+#contact input[type="month"]:focus,
+#contact input[type="time"]:focus,
+#contact input[type="datetime"]:focus,
+#contact input[type="datetime-local"]:focus,
+#contact input[type="week"]:focus,
+#contact input[type="number"]:focus,
+#contact input[type="search"]:focus,
+#contact input[type="tel"]:focus,
+#contact input[type="color"]:focus,
+#contact select:focus,
+#contact textarea:focus {
+  outline: 0;outline: thin dotted \9;/* IE6-9 */border-color: #129FEA;
+}
+#contact input[type="text"][disabled],
+#contact input[type="password"][disabled],
+#contact input[type="email"][disabled],
+#contact input[type="url"][disabled],
+#contact input[type="date"][disabled],
+#contact input[type="month"][disabled],
+#contact input[type="time"][disabled],
+#contact input[type="datetime"][disabled],
+#contact input[type="datetime-local"][disabled],
+#contact input[type="week"][disabled],
+#contact input[type="number"][disabled],
+#contact input[type="search"][disabled],
+#contact input[type="tel"][disabled],
+#contact input[type="color"][disabled],
+#contact select[disabled],
+#contact textarea[disabled] {
+  cursor: not-allowed;background-color: #eaeded;color: #cad2d3;
+}
+#contact input[type="file"]:focus,
+#contact input[type="radio"]:focus,
+#contact input[type="checkbox"]:focus {
+  outline: thin dotted #333333;outline: 1px auto #129FEA;
+}
+#contact input[type="file"]:focus:invalid:focus,
+#contact input[type="radio"]:focus:invalid:focus,
+#contact input[type="checkbox"]:focus:invalid:focus {
+  outline-color: #e9322d;
+}
+#contact .pure-checkbox,
+#contact .pure-radio {
+  margin: 0.5em 0;display: block;
+}
+#contact input[readonly],
+#contact select[readonly],
+#contact textarea[readonly] {
+  background: #eee;color: #777;border-color: #ccc;
+}
+#contact input[readonly]:focus,
+#contact select[readonly]:focus,
+#contact textarea[readonly]:focus {
+  background: #eee;color: #777;border-color: #ccc;
+}
+#contact input:focus:invalid,
+#contact textarea:focus:invalid,
+#contact select:focus:invalid {
+  color: #b94a48;border: 1px solid #ee5f5b;
+}
+#contact input:focus:invalid:focus,
+#contact textarea:focus:invalid:focus,
+#contact select:focus:invalid:focus {
+  border-color: #e9322d;
+}
+#contact select {
+  border: 1px solid #ccc;background-color: #fff;
+}
+#contact select[multiple] {
+  height: auto;
+}
+#contact label {
+  margin: 0.5em 0 0.2em;font-size: 90%;
+}
+#contact fieldset {
+  margin: 0;padding: 0.35em 0 0.75em;border: 0;
+}
+#contact legend {
+  display: block;width: 100%;padding: 0.3em 0;margin-bottom: 0.3em;font-size: 125%;color: #333;border-bottom: 1px solid #e5e5e5;
+}
+#contact input.pure-input-rounded,
+#contact .pure-input-rounded {
+  -webkit-border-radius: 2em;-moz-border-radius: 2em;-ms-border-radius: 2em;-o-border-radius: 2em;border-radius: 2em;padding: 0.5em 1em;
+}
+#contact .pure-group fieldset {
+  margin-bottom: 10px;
+}
+#contact .pure-group input {
+  display: block;padding: 10px;margin: 0;-webkit-border-radius: 0;-moz-border-radius: 0;-ms-border-radius: 0;-o-border-radius: 0;border-radius: 0;position: relative;top: -1px;
+}
+#contact .pure-group input:focus {
+  z-index: 2;
+}
+#contact .pure-group input:first-child {
+  top: 1px;-webkit-border-radius: 4px 4px 0 0;-moz-border-radius: 4px 4px 0 0;-ms-border-radius: 4px 4px 0 0;-o-border-radius: 4px 4px 0 0;border-radius: 4px 4px 0 0;
+}
+#contact .pure-group input:last-child {
+  top: -2px;-webkit-border-radius: 0 0 4px 4px;-moz-border-radius: 0 0 4px 4px;-ms-border-radius: 0 0 4px 4px;-o-border-radius: 0 0 4px 4px;border-radius: 0 0 4px 4px;
+}
+#contact .pure-group button {
+  margin: 0.35em 0;
+}
+#contact .pure-input-1 {
+  width: 100%;
+}
+#contact .pure-input-2-3 {
+  width: 66%;
+}
+#contact .pure-input-1-2 {
+  width: 50%;
+}
+#contact .pure-input-1-3 {
+  width: 33%;
+}
+#contact .pure-input-1-4 {
+  width: 25%;
+}
+#contact .pure-help-inline {
+  display: inline-block;padding-left: 0.3em;color: #666;vertical-align: middle;font-size: 90%;
+}
+#contact .custom-button {
+  font-size: 100%;*font-size: 90%;/*IE 6/7 - To reduce IE's oversized button text*/*overflow: visible;/*IE 6/7 - Because of IE's overly large left/right padding on buttons */padding: 0.5em 1.5em 0.5em;color: #444;/* rgba not supported (IE 8) */color: rgba(0, 0, 0, 0.8);/* rgba supported */*color: #444;/* IE 6 & 7 */border: 1px solid #999;/*IE 6/7/8*/border: none #000;/*IE9 + everything else*/background-color: #e6e6e6;text-decoration: none;border-radius: 2px;-webkit-font-smoothing: antialiased;-webkit-transition: 0.1s box-shadow linear;-moz-transition: 0.1s box-shadow linear;-ms-transition: 0.1s box-shadow linear;-o-transition: 0.1s box-shadow linear;transition: 0.1s box-shadow linear;
+}
+#contact .custom-button:hover,
+#contact .custom-button:focus {
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#1a000000', GradientType=0);background-image: -webkit-gradient(linear, 0 0, 0 100%, from(transparent), color-stop(40%, rgba(0, 0, 0, 0.05)), to(rgba(0, 0, 0, 0.1)));background-image: -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.05) 40%, rgba(0, 0, 0, 0.1));background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.1));background-image: -ms-linear-gradient(transparent, rgba(0, 0, 0, 0.05) 40%, rgba(0, 0, 0, 0.1));background-image: -o-linear-gradient(transparent, rgba(0, 0, 0, 0.05) 40%, rgba(0, 0, 0, 0.1));background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.05) 40%, rgba(0, 0, 0, 0.1));
+}
+#contact .custom-button:focus {
+  outline: 0;
+}
+#contact .custom-button:active {
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15) inset, 0 0 6px rgba(0, 0, 0, 0.2) inset;
+}
+#contact .custom-button[disabled] {
+  border: none;background-image: none;filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);filter: alpha(opacity=40);-khtml-opacity: 0.4;-moz-opacity: 0.4;opacity: 0.4;cursor: not-allowed;box-shadow: none;
+}
+#contact .custom-button::-moz-focus-inner {
+  padding: 0;border: 0;
+}
+#contact {
+  margin-top: 50px;
+  padding: 50px;
+}
+#contact .custom-button {
+  height: 40px !important;
+  background-color: white;
+  color: #1b3655;
+  font-weight: 600;
+}
+#contact .custom-button:hover {
+  color: white;
+  background-color: #1b3655;
+  border: 1px solid white;
+}
+#contact .pure-group {
+  background-color: #1b3655;
+}
+#contact .pure-group input,
+#contact .pure-group textarea {
+  margin-top: 10px;
+  min-width: 500px;
+}
+.outer-div {
+  background-color: #1b3655;
+  background-image: url("../images/watch-bg.png");
+  background-attachment: fixed;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 30%;
+  display: flex;
+  justify-content: center;
+}
+.inner-div {
+  align-self: center;
+}

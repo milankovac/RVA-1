@@ -1,0 +1,44 @@
+@import 'https://raw.githubusercontent.com/deshack/pure-less/beta/less/mixins.less';
+@import 'https://raw.githubusercontent.com/deshack/pure-less/beta/less/variables.less';
+@import (reference) 'https://raw.githubusercontent.com/deshack/pure-less/beta/less/forms.less';
+@import (reference)  'https://raw.githubusercontent.com/deshack/pure-less/beta/less/buttons.less';
+@blue: #1b3655;
+#contact{
+    margin-top: 50px;
+    padding: 50px;
+    &:extend(.pure-form all);
+    .custom-button{
+        &:extend(.pure-button all);
+        height: 40px !important;
+        background-color: white;
+        color: @blue;
+        font-weight: 600;
+        &:hover{
+            color: white;
+            background-color: @blue;
+            border: 1px solid white;
+        }
+    }
+    .pure-group{
+        background-color:@blue;
+        input, textarea{
+            margin-top: 10px;
+            min-width: 500px;
+        }
+        
+    }
+}
+.outer-div {
+    background-color:@blue;
+    background-image: url("../images/watch-bg.png");
+    background-attachment: fixed;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size:30%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .inner-div {
+    align-self: center;
+  }

@@ -1,0 +1,35 @@
+#about {
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: auto;
+}
+#about div {
+  color: #ffffff;
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+  padding: 10px;
+}
+#about .container {
+  display: inline-flex;
+}
+#about .fixed {
+  width: 60%;
+  height: 500px;
+  background-color: #1b3655;
+  background-image: url("../images/watch-bg.png");
+  background-attachment: fixed;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 30%;
+}
+#about .flex-item {
+  color: #676767;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+#about .flex-item p {
+  padding: 10px;
+  background-color: transparent;
+}

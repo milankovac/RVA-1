@@ -1,0 +1,40 @@
+@blue:#1b3655;
+#services{
+    margin: auto;
+    padding: 10px;
+    .flex-parent-element {
+      display: flex;
+      width: 100%;
+    }
+    
+    .flex-child-element {
+      flex: 1;
+      margin: 10px;
+    }
+    
+    .flex-child-element:first-child {
+      margin-right: 20px;
+    }
+
+    .container {
+      line-height: 500px;
+      text-align: center;
+      .vertical-center{
+        font-family: Longines Sans Text,open_sansregular;
+        display: inline-block;
+        vertical-align: middle;
+        line-height: normal;
+        font-size: 14px;
+        color: @blue;
+        span{
+          font-weight: 900;
+          font-size: 18px;
+        }
+        p{
+          color: #676767;
+          line-height: 20px;
+        }
+      }
+    }
+  
+}

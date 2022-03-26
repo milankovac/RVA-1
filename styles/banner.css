@@ -1,0 +1,14 @@
+#banner {
+  background-image: url("../images/longines_ns.jpg");
+  min-height: 700px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+@media only screen and (max-device-width: 1366px) {
+  #banner {
+    background-attachment: scroll;
+  }
+}

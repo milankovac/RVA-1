@@ -1,0 +1,71 @@
+@color0: #f3f3f3; 
+@color1: #d39e53;
+* {
+	background-color: @color0;
+	font-family: system-ui;
+	margin: 0%;
+	padding: 0%;
+	max-width: 100%;
+    overflow-x: hidden;
+	scroll-behavior: smooth;
+	.fade {
+		transition: opacity 0.4s ease-in;
+	  }
+	  
+	  .fadeOut { opacity: 0; }
+	  .fadeIn { opacity: 1; }
+}
+.sidenav {
+	background-color: white;
+	height: 100%;
+	left: 0;
+	overflow-x: hidden;
+	padding-top: 60px;
+	position: fixed;
+	top: 0;
+	transition: 0.5s;
+	width: 0;
+	z-index: 1;
+	a {
+		background-color: white;
+		color: black;
+		display: block;
+		font-size: 25px;
+		padding: 8px 8px 8px 32px;
+		text-decoration: none;
+		transition: 0.3s;
+	}
+	.closebtn {
+		font-size: 36px;
+		margin-left: 50px;
+		position: absolute;
+		right: 25px;
+		top: 0;
+	}
+	.nav-img{
+		width: 100%;
+		position: absolute;
+		bottom: 100px;
+	}
+}
+#openNav {
+	position: fixed;
+	background-color: transparent;
+	color: #1b3655;
+	margin-left: 50px;
+	margin-top: 10px;
+	&:hover{
+		color: black;
+	}
+}
+#main {
+	background-color: @color0;
+	color: white;
+	position: relative;
+}
+#indexPage{
+	transition: margin-left 0.5s;
+}
+.icon{
+	background-color: white;
+}

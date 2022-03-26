@@ -1,0 +1,87 @@
+#Menu {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  text-align: center;
+  display: inline-table;
+}
+#M_1,
+#M_2,
+#M_3,
+#M_4 {
+  text-align: center;
+  width: 24%;
+  height: 100%;
+  display: inline-block;
+  color: #1b3655;
+}
+#M_1 h6,
+#M_2 h6,
+#M_3 h6,
+#M_4 h6 {
+  font-size: 15px;
+}
+#M_1 button,
+#M_2 button,
+#M_3 button,
+#M_4 button {
+  margin-top: 20px;
+  width: 200px;
+  height: 40px;
+  background-color: #1b3655;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  border: 1px solid #1b3655;
+  border-radius: 10px;
+}
+#M_1 button:hover,
+#M_2 button:hover,
+#M_3 button:hover,
+#M_4 button:hover {
+  color: #1b3655;
+  background-color: white;
+}
+#M_1 i,
+#M_2 i,
+#M_3 i,
+#M_4 i {
+  margin-top: 40px;
+  height: 100px;
+  font-size: 3.75em;
+  color: #1b3655;
+}
+#M_2,
+#M_3,
+#M_4 {
+  border-left: 1px solid #1b3655;
+}
+@media screen and (max-width: 800px) {
+  #M_1 button,
+  #M_2 button,
+  #M_3 button,
+  #M_4 button {
+    width: 80%;
+    height: 30px;
+    font-size: 15px;
+  }
+  #M_1 h6,
+  #M_1 p,
+  #M_2 h6,
+  #M_2 p,
+  #M_3 h6,
+  #M_3 p,
+  #M_4 h6,
+  #M_4 p {
+    font-size: 10px;
+  }
+  #M_1 i,
+  #M_2 i,
+  #M_3 i,
+  #M_4 i {
+    font-size: 1.75em;
+  }
+}

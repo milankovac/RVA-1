@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MIT28/21</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="../bootstrap/dist/js/bootstrap.js"></script>
+  <script src="../bootstrap/js/dist/dropdown.js"></script>
+  <script src="../bootstrap/js/dist/collapse.js"></script>
+  <link rel="stylesheet" href="styles/index.css" />
+
+</head>
+
+<body>
+
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#about"> About</a>
+    <a href="#services">Services</a>
+    <a href="#ambasadors">Ambasadors</a>
+    <a href="#contact">Contact</a>
+    <img class='nav-img' src="./images/watch1.png" />
+  </div>
+
+  <div id="indexPage">
+
+    <div id="main">
+      <span style="font-size:30px;cursor:pointer" id="openNav" onclick="openNav()">&#9776;</span>
+      <section id="banner" class="fade fadeOut">
+      </section>
+      <div id="Menu" class="fade fadeOut">
+        <div id="M_1">
+          <img src="./images/1.png">
+          <div>
+            <h6>The Longines Avigation BigEye</h6>
+            <p>L2.816.1.93.2</p>
+            <p>Ø 41.00 mm</p>
+            <button>SHOP</button>
+          </div>
+          <i onclick="myFunction(this)" class="fa fa-heart-o"></i>
+        </div>
+        <div id="M_4"><img src="./images/2.png">
+          <div>
+            <h6>The Longines Avigation BigEye</h6>
+            <p>L2.816.1.93.2</p>
+            <p>Ø 41.00 mm</p>
+            <button>SHOP</button>
+          </div>
+          <i onclick="myFunction(this)" class="fa fa-heart-o"></i>
+        </div>
+        <div id="M_3"><img src="./images/3.png">
+          <div>
+            <h6>The Longines Avigation BigEye</h6>
+            <p>L2.816.1.93.2</p>
+            <p>Ø 41.00 mm</p>
+            <button>SHOP</button>
+          </div>
+          <i onclick="myFunction(this)" class="fa fa-heart-o"></i>
+        </div>
+        <div id="M_2"><img src="./images/4.png">
+          <div>
+            <h6>The Longines Avigation BigEye</h6>
+            <p>L2.816.1.93.2</p>
+            <p>Ø 41.00 mm</p>
+            <button>SHOP</button>
+          </div>
+          <i onclick="myFunction(this)" class="fa fa-heart-o"></i>
+        </div>
+      </div>
+    </div>
+    <div id="about" class="fade fadeOut">
+      <div class="container">
+        <div class="fixed"></div>
+        <div class="flex-item">
+          <p>Elegance, Longines’s flagship value, inspired the creation of The Longines Elegant Collection, models
+            launched in 2014 which perfectly represent the classicism and understatement inherent to the brand. Equipped
+            with mechanical movements, they are available in three sizes and offer a wide range of dials, each
+            presenting its own definition of elegance.Longines, in collaboration with the International Federation of
+            Horseracing Authorities (IFHA), awards the Longines World’s Best Jockey first prize to the jockey who has
+            achieved the best results in the year.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="services">
+      <div class="flex-parent-element fade fadeOut">
+        <div class="flex-child-element">
+          <div class="container">
+            <div class="vertical-center">
+              <span>- 1 -</span><br><br>
+              <h2>Case disassembly</h2><br>
+              <p>Disassembly of the case and its components (glass, back, bezel, various seals, etc.) and separation of
+                the
+                movement.</p>
+            </div>
+          </div>
+        </div>
+        <div class="flex-child-element">
+          <img src="./images/service1.jpg" style="float: right;">
+        </div>
+      </div>
+      <div class="flex-parent-element fade fadeOut">
+        <div class="flex-child-element">
+          <img src="./images/service2.jpg">
+        </div>
+        <div class="flex-child-element">
+          <div class="container">
+            <div class="vertical-center">
+              <span>- 2 -</span><br><br>
+              <h2>Movement disassembly</h2><br>
+              <p>Full part-by-part disassembly of the movement.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex-parent-element fade fadeOut">
+        <div class="flex-child-element">
+          <div class="container">
+            <div class="vertical-center">
+              <span>- 3 -</span>
+              <h2>Movement reassembly</h2>
+              <p>Reassembly and oiling of movement to Longines specifications.</p>
+            </div>
+          </div>
+        </div>
+        <div class="flex-child-element">
+          <img src="./images/service3.jpg" style="float: right;">
+        </div>
+      </div>
+
+    </div>
+    <div id="ambasadors">
+      <h1 class="fade fadeOut">OUR AMBASSADORS</h1>
+      <div class="row">
+        <div class="column">
+          <img src="./images/ambasador1.jpg" class="fade fadeOut">
+          <img src="./images/ambasador3.jpg" class="fade fadeOut">
+        </div>
+        <div class="column">
+          <img src="./images/ambasador4.jpg" class="fade fadeOut">
+          <img src="./images/ambasador2.jpg" class="fade fadeOut">
+        </div>
+        <div class="column">
+          <img src="./images/ambasador5.jpg" class="fade fadeOut">
+          <img src="./images/ambasador6.jpg" class="fade fadeOut">
+        </div>
+      </div>
+    </div>
+    <div id="contact" class="outer-div">
+      <div class="inner-div">
+        <form class="pure-form">
+          <fieldset class="pure-group">
+            <input type="email" class="pure-input-1-3" placeholder="Email" />
+            <input type="text" class="pure-input-1-3" placeholder="Title" />
+            <textarea class="pure-input-1-3" placeholder="Message"></textarea>
+            <button type="submit" class="pure-button pure-input-1-3 pure-button-primary custom-button">SEND</button>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </div>
+  <footer class="footer-distributed">
+
+    <div class="footer-left">
+
+      <h3><span>Longines</span></h3>
+
+      <p class="footer-links">
+        <a href="#about">About |</a>
+        
+        <a href="#services">Services |</a>
+
+        <a href="#ambasadors">Ambasadors |</a>
+
+        <a href="#contact">Contact</a>
+      </p>
+
+      <p class="footer-company-name">Milan Kovac &copy; 2021</p>
+    </div>
+
+    <div class="footer-center">
+
+      <div>
+        <i class="fa fa-map-marker"></i>
+        <p><span>21 Murray Street</span> New York, USA</p>
+      </div>
+
+      <div>
+        <i class="fa fa-phone"></i>
+        <p>212-378-7145</p>
+      </div>
+
+      <div>
+        <i class="fa fa-envelope"></i>
+        <p><a href="mailto:support@company.com">contact@longines.com</a></p>
+      </div>
+
+    </div>
+
+    <div class="footer-right">
+
+      <p class="footer-company-about">
+        <span>About the company</span>
+        Elegance, Longines’s flagship value, inspired the creation of The Longines Elegant Collection.
+      </p>
+
+      <div class="footer-icons">
+
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-github"></i></a>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+
+  <script>
+    function myFunction(x) {
+      x.classList.toggle("fa-heartbeat");
+    }
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+      document.getElementById("indexPage").style.marginLeft = "250px";
+      document.getElementById("openNav").style.visibility = "hidden";
+
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("indexPage").style.marginLeft = "0";
+      document.getElementById("openNav").style.visibility = "visible";
+    }
+    const observerOptions = {
+      root: null,
+      rootMargin: "0px",
+      threshold: 0.5
+    };
+
+    function observerCallback(entries, observer) {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.replace('fadeOut', 'fadeIn');
+        } else {
+          entry.target.classList.replace('fadeIn', 'fadeOut');
+        }
+      });
+    }
+
+    const observer = new IntersectionObserver(observerCallback, observerOptions);
+
+    const fadeElms = document.querySelectorAll('.fade');
+    fadeElms.forEach(el => observer.observe(el));
+
+  </script>
+</body>
+
+</html>

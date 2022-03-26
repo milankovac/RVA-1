@@ -1,0 +1,36 @@
+#ambasadors {
+  text-align: center;
+}
+#ambasadors h1 {
+  color: #1b3655;
+  margin: 30px;
+}
+#ambasadors .row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  justify-content: center;
+  align-items: center;
+}
+#ambasadors .column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+#ambasadors .column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+@media screen and (max-width: 800px) {
+  #ambasadors .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+  #ambasadors .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
