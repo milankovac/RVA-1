@@ -8,8 +8,8 @@
     text-align: center;
     display: inline-table;
 }
-#M_1 {
-	text-align: center;
+.default{
+    text-align: center;
 	width: 24%;
     height: 100%;
 	display: inline-block;
@@ -39,6 +39,9 @@
         font-size: 3.75em;
         color: @blue;
     }
+}
+#M_1 {
+  .default()
 }
 #M_2 {
     &:extend(#M_1 all);
